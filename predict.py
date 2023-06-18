@@ -22,7 +22,7 @@ def predict_cardio():
     model.fit(X_train, y_train)
 
     # Prompt the user for input values
-    age = int(input("Enter the age: (By Days)"))
+    age = int(input("Enter the age: "))
     gender = int(input("Enter the gender (1 - women, 2 - men): "))
     height = int(input("Enter the height (in cm): "))
     weight = int(input("Enter the weight (in kg): "))
